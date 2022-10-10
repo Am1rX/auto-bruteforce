@@ -19,7 +19,7 @@ else:
 user = open("user.txt",'a')
 pas = open("password.txt",'a')
 user.close()
-user.close()
+pas.close()
 
 time.sleep(0.5)
 print("\nWelcome To Automated BruteForce Script")
