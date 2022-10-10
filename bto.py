@@ -51,7 +51,7 @@ def attack(url,error,uinp,pasinp):
         for u in usernm:
             u = u.strip()
             for p in panm:
-                u = u.strip()
+                p = p.strip()
                 worklist = {uinp:u,pasinp:p}
                 q = requests.post(url,data=worklist)
                 if error in q.text:
